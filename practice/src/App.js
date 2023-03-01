@@ -1,4 +1,5 @@
 import "./App.css";
+import Main from "./Components/Main";
 
 function App() {
   return (
@@ -6,8 +7,14 @@ function App() {
       <div>
         <span>chathu</span>
       </div>
+      <br></br>
       <div>
-        <span>chathu</span>
+        <Main />
+        <Main>
+          <h2>children test</h2>
+          <span>children test</span>
+        </Main>
+        <Main />
       </div>
     </>
   );
