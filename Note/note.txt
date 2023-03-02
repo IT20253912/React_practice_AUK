@@ -1,0 +1,17 @@
+call const:-
+    ex: 
+        function Main(props) {
+            const name = "name test";
+
+        return (
+            <div>
+                <span>{name}</span>
+            </div>
+            );
+        }
+
+        export default Main;
+
+        **output :- 
+            name test
+

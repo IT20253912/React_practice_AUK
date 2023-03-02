@@ -1,5 +1,4 @@
 function Main(props) {
-
   const name = "name test";
 
   return (
@@ -8,9 +7,6 @@ function Main(props) {
       {props.children} */}
 
       <span>{name}</span>
-     
-
-
     </div>
   );
 }
