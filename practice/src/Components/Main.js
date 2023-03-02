@@ -1,12 +1,28 @@
+const name = "name test W";
+// const position ="";
+
+const myObj = {
+  name: `${name}`,
+  position: "position test",
+  city: "city test",
+};
+
 function Main(props) {
-  const name = "name test";
+
+  console.log(props);
+
+  const { city } = myObj;
+
+  // console.log(city)
+
+  
+
 
   return (
     <div>
-      {/* This is main components
-      {props.children} */}
-
-      <span>{name}</span>
+        <h4>{myObj.name}</h4>
+        <h4>{myObj.position}</h4>
+        <h4>{city}</h4>
     </div>
   );
 }

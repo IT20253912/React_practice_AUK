@@ -1,4 +1,4 @@
-call const:-
+1. call const:-
     ex: 
         function Main(props) {
             const name = "name test";
@@ -14,4 +14,90 @@ call const:-
 
         **output :- 
             name test
+
+--------------------------------------------------------------------------------------------
+
+2. call object veriable :-
+    ex 01:
+        function Main(props) {
+            const name = "name test";
+
+            const myObj = {
+                name: `${name}`,
+            };
+
+        return (
+            <div>
+                <span>{myObj.name}</span>
+            </div>
+                );
+        }
+
+        export default Main;
+
+        **output :- 
+            name test
+
+    
+
+    ex 02:
+        function Main(props) {
+            const name = "name test";
+
+            const myObj = {
+                name: `${name}`,
+                position: "position test",
+                city: "city test",
+            };
+
+            return (
+            <div>
+                <h4>{myObj.name}</h4>
+                <h4>{myObj.position}</h4>
+            </div>
+            );
+        }
+
+        export default Main;
+
+        **output :-
+            name test W
+            position test
+
+
+-----------------------------------------------------------------------------
+
+3. Object Destructering 
+
+    ex:
+        const name = "name test";
+
+        const myObj = {
+            name: `${name}`,
+            position: "position test",
+            city: "city test",
+        };
+
+        function Main(props) {
+
+        const { city } = myObj;
+
+
+        return (
+            <div>
+                <h4>{myObj.name}</h4>
+                <h4>{myObj.position}</h4>
+                <h4>{city}</h4>
+            </div>
+            );
+        }
+
+        export default Main;
+
+        **output - 
+            name test 
+            position test
+            city test
+
+-----------------------------------------------------------------------------------
 
