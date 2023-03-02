@@ -14,7 +14,9 @@ function App() {
           <h2>children test</h2>
           <span>children test</span>
         </Main>
-        <Main />
+        <Main>
+          <h2>chathu</h2>
+        </Main>
       </div>
     </>
   );
