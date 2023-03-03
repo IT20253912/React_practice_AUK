@@ -1,17 +1,17 @@
-const name = "name test W";
+// const name = "name test W";
 // const position ="";
 
-const myObj = {
-  name: `${name}`,
-  position: "position test",
-  city: "city test",
-};
+// const myObj = {
+//   name: `${name}`,
+//   position: "position test",
+//   city: "city test",
+// };
 
 function Main(props) {
 
-  console.log(props);
+  // console.log(props);
 
-  const { city } = myObj;
+  // const { city } = myObj;
 
   // console.log(city)
 
@@ -20,9 +20,9 @@ function Main(props) {
 
   return (
     <div>
-        <h4>{myObj.name}</h4>
+        {/* <h4>{myObj.name}</h4>
         <h4>{myObj.position}</h4>
-        <h4>{city}</h4>
+        <h4>{city}</h4> */}
     </div>
   );
 }

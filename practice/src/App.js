@@ -9,14 +9,10 @@ function App() {
       </div>
       <br></br>
       <div>
-        <Main />
-        <Main>
-          <h2>children test</h2>
-          <span>children test</span>
-        </Main>
-        <Main>
-          <h2>chathu</h2>
-        </Main>
+        
+        <Main name='nameOne' city='cityOne' position='positionOne'/>
+        <Main name='nameTwo' city='cityTwo' position='positionTwo'/>
+
       </div>
     </>
   );
